@@ -9,16 +9,15 @@
 body{
     background-image: url(/assets/img/background/background-header.jpg);
     overflow:inherit;
-    transition: all 0.3s ease;
-     
+  
 }
+
 header{ width: 90vw;}
 
 a{
   text-decoration:none;
   color:#afffff;
 }
-
 
 #planets-header {
   position: relative;
@@ -39,46 +38,38 @@ a{
   position: relative;
   left: 22%; 
 }
-
 .mercurio {
   position: relative;
   left: 150px;
 }
-
 .venus {
   position: relative;
   left: 100px; 
 }
-
 .terra {
   position: relative;
   left: 70px; 
 }
-
 .marte {
   position: relative;
   left: 18px; 
 }
-
 .jupiter {
   position: relative;
   right: 25px; 
 }
-
 .saturno {
   position: relative;
   right: 40px; 
 }
-
 .urano {
   position: relative;
   right: 80px; 
 }
-
 .netuno {
   position: relative;
   right: 120px; 
-  
+ 
 }
   
 /************MENU DE NAVEGAÇÃO**************/
@@ -112,7 +103,6 @@ a{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
   }
   
-  /* Remover classes de largura, pois o padding já cuida do espaçamento */
   .item-curiosidade{width: 13vw;}
   .item-viagem{width: 8vw;}
   .item-home{width: 6vw;}
@@ -146,16 +136,10 @@ a{
     box-shadow: 0 3px 3px aqua;
 }
 
-#card1{
-  background-image: url(/assets/img/background/CONSTELAÇÕES.webp);
-    
-}
-#card2{
-  background-image: url(/assets/img/background/galarias-ia.jpg);
-}
-#card3{
-  background-image: url(/assets/img/background/noticia-ia2.jpg);
-}
+/*****IMAGENS DOS CARDS********/
+#card1{background-image: url(/assets/img/background/CONSTELAÇÕES.webp);}
+#card2{background-image: url(/assets/img/background/galarias-ia.jpg);}
+#card3{background-image: url(/assets/img/background/noticia-ia2.jpg);}
 
 /* Estilos para o texto dentro do cartão */
 
@@ -195,7 +179,6 @@ button{
 
 footer {
   padding: 20px; /* Adiciona espaçamento interno */
-  background-color: rgba(0, 0, 20, 0.1); /* Fundo escuro semi-transparente */
   border-radius: 10px; /* Bordas arredondadas */
   text-align: center; /* Centraliza o conteúdo */
   color: #e8e8e8; /* Cor do texto para contraste */
