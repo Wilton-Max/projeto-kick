@@ -14,7 +14,7 @@ body {
     border: solid 10px rgba(73, 38, 38, 0.4);
     border-radius: 10px;
     font-family: "Inter";
-    color: #e8e8e8; /* Cor do texto para contraste */
+    color: #e8e8e8; 
 }
 
 #ico-home {
@@ -24,11 +24,11 @@ body {
 
 h1 {
     margin-top: 20px;
-    font-size: 2rem; /* Aumenta o tamanho do título */
+    font-size: 2rem; 
     font-family: "Orelega one", sans-serif;
     font-weight: 300;
     color: #eec73e;
-    text-shadow: 0 0 10px #000; /* Sombra para destacar o título */
+    text-shadow: 0 0 10px #000; 
 }
 
 main {
@@ -39,30 +39,30 @@ section {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centraliza os cards */
+    justify-content: center; 
 }
 
 .card {
     width: 300px;
-    border: none; /* Remove a borda sólida */
+    border: none; 
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
-    background-color: rgba(0, 0, 20, 0.8); /* Fundo semi-transparente */
-    backdrop-filter: blur(5px); /* Efeito blur no fundo */
-    color: #e8e8e8; /* Cor do texto para contraste */
-    transition: transform 0.2s; /* Animação suave na hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 20, 0.8); 
+    backdrop-filter: blur(5px); 
+    color: #e8e8e8; 
+    transition: transform 0.2s; 
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Eleva o card ao passar o mouse */
+    transform: translateY(-5px); 
 }
 
 .card img {
     max-width: 100%;
-    height: 200px; /* Define altura fixa para imagens uniformes */
-    object-fit: cover; /* Ajusta a imagem ao container */
+    height: 200px; 
+    object-fit: cover; 
     border-radius: 8px;
     margin-bottom: 12px;
 }
@@ -75,7 +75,7 @@ section {
 
 .card p {
     font-size: 1rem;
-    line-height: 1.5; /* Espaçamento entre linhas */
+    line-height: 1.5; 
     margin-bottom: 16px;
 }
 
@@ -84,24 +84,24 @@ section {
     font-size: 1rem;
     color: #007bff;
     text-decoration: none;
-    padding: 8px 16px; /* Adiciona padding ao botão */
-    border-radius: 5px; /* Arredonda as bordas do botão */
-    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    padding: 8px 16px; 
+    border-radius: 5px; 
+    background-color: rgba(255, 255, 255, 0.1); 
     transition: background-color 0.2s;
 }
 
 .card a:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Fundo mais claro ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.2); 
     color: #fff;
 }
 
 footer {
     margin-top: 40px; 
-    padding: 20px; /* Adiciona espaçamento interno */
-    background-color: rgba(0, 0, 20, 0.1); /* Fundo escuro semi-transparente */
-    border-radius: 10px; /* Bordas arredondadas */
-    text-align: center; /* Centraliza o conteúdo */
-    color: #e8e8e8; /* Cor do texto para contraste */
+    padding: 20px; 
+    background-color: rgba(0, 0, 20, 0.1); 
+    border-radius: 10px; 
+    text-align: center; 
+    color: #e8e8e8; 
 }
 
 footer img {
@@ -110,12 +110,12 @@ footer img {
   
 }
 
-footer p { /* Adiciona um parágrafo para informações */
+footer p { 
     font-size: 0.9rem;
     margin-bottom: 5px; 
 }
 
-footer a { /* Estiliza links no rodapé */
+footer a { 
     color: #007bff;
     text-decoration: none;
 }

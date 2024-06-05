@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration:none;
-   /* border: solid 1px rgb(150, 14, 14);*/
 }
 
 body{
     background-image: url(/assets/img/background/background-header.jpg);
     overflow:inherit;
-  
+    font-family: "Orelega one";
 }
 
 header{ width: 90vw;}
@@ -33,7 +32,7 @@ a{
   align-content: center;
 }
 
-/* Ajustes de posicionamento específicos para cada planeta */
+/* Ajustes de posicionamento para cada planeta */
 .sol {
   position: relative;
   left: 22%; 
@@ -69,12 +68,20 @@ a{
 .netuno {
   position: relative;
   right: 120px; 
- 
 }
+
+.sol:hover{transform: scale(1.1);transition: 1s;}
+.mercurio:hover{transform: scale(1.2);transition: 1s;}
+.venus:hover{transform: scale(1.2);transition: 1s;}
+.terra:hover{transform: scale(1.2);transition: 1s;}
+.marte:hover{transform: scale(1.2);transition: 1s;}
+.jupiter:hover{transform: scale(1.2);transition: 1s;}
+.saturno:hover{transform: scale(1.2);transition: 1s;}
+.urano:hover{transform: scale(1.2);transition: 1s;}
+.netuno:hover:hover{transform: scale(1.2);transition: 1s;}
   
 /************MENU DE NAVEGAÇÃO**************/
-.nav-header {
-    font-family: "Orelega one", sans-serif;
+.nav-header { 
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -87,28 +94,27 @@ a{
   .nav-header a {
     text-decoration: none;
     color: #fff;
-    background-color: rgba(0, 0, 51, 0.8); /* Cor de fundo azul escuro espacial */
+    background-color: rgba(0, 0, 51, 0.8); 
     text-align: center;
     padding: 15px;
     margin-bottom: 2px;
     border-radius: 5px; 
-    transition: all 0.3s ease; /* Transição suave */
-    text-shadow: 0 0 5px #007bff; /* Sombra de texto azul */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: all 0.3s ease; 
+    text-shadow: 0 0 5px #007bff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   }
   
   .nav-header a:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% */
-    background-color: #007bff; /* Cor de fundo azul brilhante ao pairar */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+    transform: scale(1.1); 
+    background-color: #007bff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   }
   
   .item-curiosidade{width: 13vw;}
   .item-viagem{width: 8vw;}
   .item-home{width: 6vw;}
 
-
-/**********ESTILO DO SECTION DOS CARDS***********/
+/**********ESTILO DA SECTION DOS CARDS***********/
 
 #section-cards {
   margin-top: 20px;
@@ -119,10 +125,10 @@ a{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-image: linear-gradient(to bottom, rgba(10, 10, 50, 0.8), rgba(10, 10, 50, 0)); /* Gradiente sutil que escurece para baixo */
+  background-image: linear-gradient(to bottom, rgba(10, 10, 50, 0.8), rgba(10, 10, 50, 0)); 
   border: 3px solid #555; 
   border-radius: 15px; 
-  box-shadow: 0 8px 15px rgba(0,0,0,0.3); /* Sombra para dar profundidade */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3); 
 }
 
 .card {
@@ -130,10 +136,16 @@ a{
     height: 32vw;
     margin-top: 20px;
     margin-right: 50px;
-    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo com transparência */
+    background-color: rgba(255, 255, 255, 0.5); 
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 0 3px 3px aqua;
+    box-shadow: 0 3px 3px #2fdae0;
+    cursor: pointer;
+}
+
+.card:hover{
+  transform: translateX(-5px);
+  transition: 1s;
 }
 
 /*****IMAGENS DOS CARDS********/
@@ -141,23 +153,29 @@ a{
 #card2{background-image: url(/assets/img/background/galarias-ia.jpg);}
 #card3{background-image: url(/assets/img/background/noticia-ia2.jpg);}
 
-/* Estilos para o texto dentro do cartão */
+/********* Estilos para o texto dentro do cartão *************/
+p {
+  font-family: "Inter";
+  text-align: center;
+  width: 20.2vw;
+  padding: 5px;
+  border: solid 1px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: aqua;
+  position: relative;
+  top: 65px;
+  right: 1.2px;
+  background-color: rgba(163, 131, 131, 0.9); 
+  box-shadow: 0 4px 6px rgba(187, 50, 50, 0.9);
+  border-radius: 5px;
+  z-index: 1;
+}
 
-.card p {
-    font-family: "Inter";
-    text-align: center;
-    width: 20.2vw;
-    padding: 5px;
-    border: solid 1px;
-    font-size: 1rem;
-    font-weight: 500;
-    color: aqua;
-    position: relative;
-    bottom: 60px;
-    right: 22px;
-    background-color: rgba(163, 131, 131, 0.9); 
-    box-shadow: 0 4px 6px rgba(187, 50, 50, 0.9);
-    border-radius: 5px;
+p:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    transition: .4s;
 }
 
 button{
@@ -166,38 +184,44 @@ button{
   font-size: 17px;
   border: 0;
   border-radius: 6px;
-  text-transform: uppercase;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   position: relative;
-  top: 422px;
-  right: 20px;
+  top: 7px;
   font-size: 1.1rem;
   width: 20vw;
   background-color: rgba(163, 131, 131, 0.5); 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+button:hover {
+  transform: scale(0.9); 
+  background-color: rgba(255, 255, 255, 0.2); 
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: .4s;
+}
+
 footer {
-  padding: 20px; /* Adiciona espaçamento interno */
-  border-radius: 10px; /* Bordas arredondadas */
-  text-align: center; /* Centraliza o conteúdo */
-  color: #e8e8e8; /* Cor do texto para contraste */
+  padding: 20px; 
+  border-radius: 10px; 
+  text-align: center; 
+  color: #e8e8e8; 
   background-image: url(/assets/img/background/_7a51b2d2-e609-4990-9f3d-4e7f8361ea4a.jpg);
   background-position: center;
   background-size: cover;
 }
 
 footer img {
-  width: 150px; /* Ajusta o tamanho da imagem */
+  width: 150px; 
   margin-bottom: 10px; 
 }
 
-footer p { /* Adiciona um parágrafo para informações */
+footer p { 
   font-size: 0.9rem;
   margin-bottom: 5px; 
 }
 
-footer a { /* Estiliza links no rodapé */
+footer a { 
   color: #007bff;
   text-decoration: none;
 }
