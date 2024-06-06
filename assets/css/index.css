@@ -143,8 +143,17 @@ a{
     cursor: pointer;
 }
 
-.card:hover{
-  transform: translateX(-5px);
+#card1:hover{
+  transform: translateX(-7px);
+  transition: 1s;
+}
+
+#card2:hover{
+  transform: scale(0.9); 
+  transition: 1s;
+}
+#card3:hover{
+  transform: translateX(7px); 
   transition: 1s;
 }
 
