@@ -16,8 +16,8 @@
 
 
 
-* Na página inicial mudei a posição dos planetas por questão de organizão. Mudei as sombras dos cards para combinar mais com o projeto.
-* Adcionei cores e feitos no menu de navegação que eu não consegui no Figma.
+* Na página inicial mudei a posição dos planetas por questão de organização. Mudei as sombras dos cards para combinar mais com o projeto.
+* Adcionei cores e efeitos no menu de navegação que eu não consegui no Figma.
 * Troquei e adcionei o plano de fundo do header e da seção dos cards. 
 * Troquei a imagem do footer por uma imagem mais bonita e diminui o tamanho do logo.
 
@@ -29,7 +29,12 @@
 ![anel](https://github.com/Wilton-Max/projeto-kick/assets/102773414/89159614-6d6c-4aa2-9223-7f688c3205a6)
 ![footer](https://github.com/Wilton-Max/projeto-kick/assets/102773414/611a2c2e-be46-4339-bed3-360850f483df)
 
-**_Além do mais, foi adcionado uma seção de paginas dos planetas. Todas as páginas das seções de galáxias, constelações e planetas tem a mesma estilização. Mudando o contéudo e as imagens._**
+**_Além do mais, foi adcionado uma seção de páginas dos planetas. Todas as páginas das seções de galáxias, constelações e planetas têm a mesma estilização. Mudando o contéudo e as imagens._**
 
-
+<h3>PRÓXIMOS PASSOS</h3>
+*Eslilizar as setas de navevagão para combinar mais com o site
+*Melhorar os textos das Seções
+*Melhorar a página de curiosidades
+*Adcionar uma seção de nebulosas
+*Adcionar Uma seção sobre Sondas e Telescopoios espaciais.
 
