@@ -1,12 +1,12 @@
-**_Logo no inicio quando soube da entrega do projeto por partes, já sabia que havia mudanças durante o desenvolvimento. Mas por que isso?_**
+**_Logo no início, quando soube da entrega do projeto por partes, já sabia que havia mudanças durante o desenvolvimento. Mas por que isso?_**
 
-**_Nós tinhamos que entregar o design do Figma no prazo. O meu conhecimento em design e desenvolmento por lá eram infimos e não eram compativeis com as ideias que tinha para o site._**
+**_Nós tínhamos que entregar o design do Figma no prazo. O meu conhecimento em design e desenvolvimento por lá eram ínfimos e não eram compatíveis com as ideias que tinha para o site._**
 
 **_Por algum motivo eu não estava conseguindo desenvolver meu processo criativo. Como é um projeto do zero, minha criatividade vem durante o desenvolvimento do código._**
 
-**_Também no decorrer das aulas, apredendendo coisas, novas ideias e possibidades surgiam._**
+**_Também no decorrer das aulas, apredendo coisas, novas ideias e possibilidades surgiam._**
 
-**_Segue abaixo a nova versão do site com a troca de alguns elementos e estilizações, tentei manter o mais fiel possivel, mesmo com grandes mudanças como exclusões de páginas._**
+**_Segue abaixo a nova versão do site com a troca de alguns elementos e estilizações, tentei manter o mais fiel possível, mesmo com grandes mudanças como exclusões de páginas._**
 
 <h3>Mudanças na página inicial</h3>
 
@@ -32,9 +32,10 @@
 **_Além do mais, foi adcionado uma seção de páginas dos planetas. Todas as páginas das seções de galáxias, constelações e planetas têm a mesma estilização. Mudando o contéudo e as imagens._**
 
 <h3>PRÓXIMOS PASSOS</h3>
-*Eslilizar as setas de navevagão para combinar mais com o site
-*Melhorar os textos das Seções
-*Melhorar a página de curiosidades
-*Adcionar uma seção de nebulosas
-*Adcionar Uma seção sobre Sondas e Telescopoios espaciais.
+
+* Eslilizar as setas de navevagão para combinar mais com o site
+* Melhorar os textos das Seções
+* Melhorar a página de curiosidades
+* Adcionar uma seção de nebulosas
+* Adcionar Uma seção sobre Sondas e Telescopoios espaciais.
 
