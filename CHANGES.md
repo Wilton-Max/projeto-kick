@@ -6,7 +6,7 @@
 
 **_Também no decorrer das aulas, apredendo coisas, novas ideias e possibilidades surgiam._**
 
-**_Segue abaixo a nova versão do site com a troca de alguns elementos e estilizações, tentei manter o mais fiel possível, mesmo com grandes mudanças como exclusões de páginas._**
+**_Segue abaixo a nova versão do site com a troca de alguns elementos e estilizações. Tentei manter o mais fiel possível, mesmo com grandes mudanças, como exclusões de páginas._**
 
 <h3>Mudanças na página inicial</h3>
 
