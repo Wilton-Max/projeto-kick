@@ -23,7 +23,7 @@
 
   <h3>Esclusões de páginas</h3>
   
-  **Removi as paginas index das Seções, Curiosidades, Constelações e Galáxias.**<br>
+  **Removi as paginas index das Seções: Curiosidades, Constelações e Galáxias.**<br>
   **Achei que ficaria melhor sem elas. Para chegar as paginas das seções sem os index, os links levam para a primeira página de cada seção.**
   
 ![anel](https://github.com/Wilton-Max/projeto-kick/assets/102773414/89159614-6d6c-4aa2-9223-7f688c3205a6)
