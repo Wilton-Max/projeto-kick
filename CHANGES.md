@@ -1,4 +1,4 @@
-**_Logo no início, quando soube da entrega do projeto por partes, já sabia que havia mudanças durante o desenvolvimento. Mas por que isso?_**
+**_Logo no início, quando soube da entrega do projeto por partes, já sabia que haveria mudanças durante o desenvolvimento. Mas por que isso?_**
 
 **_Nós tínhamos que entregar o design do Figma no prazo. O meu conhecimento em design e desenvolvimento por lá eram ínfimos e não eram compatíveis com as ideias que tinha para o site._**
 
