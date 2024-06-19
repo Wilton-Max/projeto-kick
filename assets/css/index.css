@@ -23,7 +23,7 @@ a{
   width: 800px;
   height: 400px;
   margin: 50px auto;
-  background-image: url(/assets/img/background/espaco-sideral.jpg);
+  background-image: url(./assets/img/background/espaco-sideral.jpg);
   background-size: cover;
   display: flex;
   flex-direction: row-reverse;
