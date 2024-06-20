@@ -6,9 +6,9 @@
 }
 
 body{
-    background-color: red;
-    /*background-image: url(./assets/img/background/background-header\ \(1\).png);
-    overflow:inherit;*/
+    
+    background-image: url(./assets/img/background/background-header.jpg);
+    overflow:inherit;
     font-family: "Orelega one";
 }
 
