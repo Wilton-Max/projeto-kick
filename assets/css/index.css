@@ -6,10 +6,10 @@
 }
 
 body{
-    background-color: red;
-    /*background-image: url(/assets/img/background/background-header.png);
+    
+    background-image: url(./assets/img/background/background-header.jpg);
     overflow:inherit;
-    font-family: "Orelega one";*/
+    font-family: "Orelega one";
 }
 
 header{ width: 90vw;}
