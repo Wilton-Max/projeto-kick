@@ -144,6 +144,13 @@ a{
   margin-bottom: 10px; 
   border-radius: 10px;
   box-shadow: 0 3px 3px #2fdae0;
+display: block; 
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  
 }
 
 button {
@@ -203,9 +210,12 @@ a {
 
 
 /*****IMAGENS DOS CARDS********/
-#card1{background-image: url(./assets/img/background/CONSTELAÇÕES.webp);}
-#card2{background-image: url(./assets/img/background/galarias-ia.jpg);}
+#card1{background-image: url(./assets/img/galaxias/Pinwheel_galaxy.png);background-position: center;background-size: cover;}
+#card2{background-image: url(./assets/img/nebulosas/ngc.jpg);Background-position:center;}
 #card3{background-image: url(./assets/img/background/noticia-ia2.jpg);}
+#card4{background-image: url(./assets/img/telescopios-sondas/telescopios.png);background-position: center;background-size: cover;}
+#card5{background-image: url(./assets/img/astronomos/astronomos.png);background-position: center; background-size: cover;}
+#card6{background-image: url(./assets/img/exoplanetas/exo.png);background-position: center;background-size: cover;}
 
 footer {
   padding: 20px; 
