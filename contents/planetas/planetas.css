@@ -1,10 +1,40 @@
 
 body{
 
-    background-image: url(.../assets/img/background/luzes1.jpg);
+    background-image: url(/assets/img/background/luzes1.jpg);
     font-family: "Inter";
 
 }
+
+/************MENU DE NAVEGAÇÃO**************/
+.nav-header { 
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 10px;
+  left: 160px;
+  width: 75vw; 
+  font-size: 1rem;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.nav-header a {
+text-decoration: none;
+color: #fff;
+background-color: rgba(9, 9, 104, 0.8); 
+text-align: center;
+padding: 8px 18px;
+margin-left: 12px;
+border-radius: 6px; 
+transition: all 0.3s ease; 
+text-shadow: 0 0 5px #007bff; 
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.item-curiosidade{width: 13vw;}
+.item-viagem{width: 13vw;}
+.item-home{width: 13vw;}
 
 h1 {
     width: 300px;
@@ -86,7 +116,7 @@ h1 {
     text-align: center; 
     color: #e8e8e8; 
     margin-top: 20px;
-    background-image: url(./assets/img/background/7a51b2d2-e609-4990-9f3d-4e7f8361ea4a.jpg);
+    background-image: url(/assets/img/background/7a51b2d2-e609-4990-9f3d-4e7f8361ea4a.jpg);
     background-position: center;
     background-size: cover;
   }
