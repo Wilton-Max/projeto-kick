@@ -84,13 +84,12 @@ a{
 /************MENU DE NAVEGAÇÃO**************/
 .nav-header { 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: absolute;
-    top: 10px;
-    left: 160px;
-    width: 75vw; 
-    font-size: 1.1rem;
-    justify-content: center;
+    top: 50px;
+    width: 200px;
+    border: none; 
+    font-size: 1.3rem;
 }
   
   .nav-header a {
@@ -106,10 +105,15 @@ a{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   }
   
-  .item-curiosidade{width: 13vw;}
-  .item-viagem{width: 13vw;}
-  .item-home{width: 13vw;}
+  .nav-header a:hover {
+    transform: scale(1.1); 
+    background-color: #007bff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+  }
   
+  .item-curiosidade{width: 13vw;}
+  .item-viagem{width: 8vw;}
+  .item-home{width: 6vw;}
 
 /**********ESTILO DA SECTION DOS CARDS***********/
 
