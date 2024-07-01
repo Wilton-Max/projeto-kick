@@ -218,19 +218,25 @@ footer {
   border-radius: 10px; 
   text-align: center; 
   color: #e8e8e8; 
-  background-image: url(./assets/img/background/7a51b2d2-e609-4990-9f3d-4e7f8361ea4a.jpg);
+  background-image: url(./assets/img/background/footer.jpg);
   background-position: center;
   background-size: cover;
+  
 }
 
 footer img {
   width: 150px; 
   margin-bottom: 10px; 
 }
+footer img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
 
 footer p { 
-  font-size: 0.9rem;
-  margin-bottom: 5px; 
+  font-size: 2rem;
+  position: relative; bottom: 20px;
+  color: #007bff;
 }
 
 footer a { 
