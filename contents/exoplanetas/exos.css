@@ -1,5 +1,5 @@
 body{
-  background-image: url(./img-astronomos/luzes1.jpg);
+  background-image: url(./img-exoplanetas/back-exo.jpg);
   background-size: cover;
   
 }
@@ -82,8 +82,6 @@ strong{
   color: #2fdae0;
   font-size: 0.8rem;
 }
-
-
 
 h3{color: #2fdae0;}
 
