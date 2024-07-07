@@ -86,20 +86,20 @@ h1 {
     background-color: rgba(0, 0, 51, 0.8);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     color: aqua;
-    padding: 10px 20px; /* Adiciona espaçamento interno */
+    padding: 10px 20px; 
     border: solid 1px black;
     letter-spacing: 1.5px;
     text-align: center;
   }
   
-  .container { /* Novo container para organizar o layout */
+  .container { 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Alinha os itens ao topo */
+    align-items: flex-start; 
     padding: 20px; 
   }
   
-  .left-column { /* Container para os elementos à esquerda */
+  .left-column { 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -112,8 +112,8 @@ h1 {
     background-color: rgba(0, 0, 51, 0.8);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     color: #f5f5f5;
-    padding: 20px; /* Adiciona espaçamento interno */
-    margin-top: 50px; /* Espaçamento superior */
+    padding: 20px; 
+    margin-top: 50px; 
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
@@ -146,7 +146,7 @@ h1 {
     background-color: rgba(0, 0, 51, 0.8);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     color: #fff;
-    padding: 20px; /* Adiciona espaçamento interno */
+    padding: 20px; 
     max-width: 300px; 
     font-size: 0.9rem;
     text-align: center;
@@ -155,8 +155,8 @@ h1 {
   footer { 
     position: relative;
    top: 50px;
-    padding: 20px; /* Adiciona espaçamento interno */
-    background-color: rgba(0, 0, 20, 0.1); /* Fundo escuro semi-transparente */
+    padding: 20px; 
+    background-color: rgba(0, 0, 20, 0.1); 
     border-radius: 10px; 
     text-align: center; 
     color: #e8e8e8; 
@@ -181,20 +181,20 @@ h1 {
   .nav-footer a, .nav-footer-b a {
     text-decoration: none;
     color: #fff;
-    background-color: rgba(0, 0, 51, 0.8); /* Cor de fundo azul escuro espacial */
+    background-color: rgba(0, 0, 51, 0.8); 
     text-align: center;
     padding: 15px;
     margin-bottom: 2px;
     border-radius: 5px; 
-    transition: all 0.3s ease; /* Transição suave */
-    text-shadow: 0 0 5px #007bff; /* Sombra de texto azul */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: all 0.3s ease; 
+    text-shadow: 0 0 5px #007bff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /
   }
   
   .nav-footer a:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% */
-    background-color: #007bff; /* Cor de fundo azul brilhante ao pairar */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+    transform: scale(1.1); 
+    background-color: #007bff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   }
   
   .nav-footer-b {
@@ -209,23 +209,23 @@ h1 {
   }
   
   .nav-footer-b a:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% */
-    background-color: #007bff; /* Cor de fundo azul brilhante ao pairar */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra mais intensa */
+    transform: scale(1.1); 
+    background-color: #007bff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   }
   /******************************************/
   footer img {
-    width: 150px; /* Ajusta o tamanho da imagem */
+    width: 150px; 
     margin-bottom: 10px; 
   
   }
   
-  footer p { /* Adiciona um parágrafo para informações */
+  footer p { 
     font-size: 0.9rem;
     margin-bottom: 5px; 
   }
   
-  footer a { /* Estiliza links no rodapé */
+  footer a { 
     color: #007bff;
     text-decoration: none;
   }
