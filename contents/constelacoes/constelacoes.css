@@ -45,9 +45,17 @@ h1 {
   
 .container { 
   display: flex;
-  justify-content: space-between;
   align-items: flex-start; 
-  padding: 20px; 
+  padding: 0 0 20px 0; 
+  
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  border: solid 1px rgb(226, 201, 201);
+  margin: 0 auto; 
+  display: block; 
 }
 
 .left-column { 
@@ -74,14 +82,6 @@ strong{
   font-size: 0.8rem;
 }
 
-.image {
-  width: 500px;
-  height: 500px;
-  border: solid 1px rgb(226, 201, 201);
-  margin: 20px auto; /* Centraliza a imagem horizontalmente */
-  display: block; /* Garante que a imagem ocupe o espaço correto */
-}
-
 h3{color: #2fdae0;}
 
 .aside {
@@ -96,20 +96,7 @@ h3{color: #2fdae0;}
   font-size: 0.9rem;
   text-align: center;
 }
-/*
-footer { 
-  padding: 20px; 
-  background-color: rgba(0, 0, 20, 0.1); 
-  border-radius: 10px; 
-  text-align: center; 
-  color: #e8e8e8; 
-  margin-top: 20px;
-  position: relative;
-  top: 50px;
-  background-image: url(./img-constelacoes/footer.jpg);
-  background-position: center;
-  background-size: cover; 
-}
+
 
 /********ITENS DE NAVEGAÇÃO DO FOOTER*********/
 .nav-footer {

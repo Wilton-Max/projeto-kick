@@ -49,9 +49,16 @@ h1 {
 }
 .container { 
   display: flex;
-  justify-content: space-between;
   align-items: flex-start; 
-  padding: 20px; 
+  padding: 0 0 20px 0; 
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  border: solid 1px rgb(226, 201, 201);
+  margin: 0 auto; 
+  display: block; 
 }
 
 .left-column { 
@@ -76,14 +83,6 @@ h1 {
 strong{
   color: aqua;
   font-size: 0.8rem;
-}
-
-.image {
-  width:  500px;
-  height: 500px;
-  border: solid 1px rgb(226, 201, 201);
-  margin: 20px auto; 
-  display: block; 
 }
 
 .image img{
