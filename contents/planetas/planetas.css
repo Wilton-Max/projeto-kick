@@ -5,53 +5,251 @@ body{
 
 }
 
-.container { 
-    display: flex;
-    align-items: flex-start; 
-    padding: 0 0 20px 0; 
-    
-  }
-  
-  .image {
-    width: 500px;
-    height: 500px;
-    border: solid 1px rgb(226, 201, 201);
-    margin: 0 auto; 
-    display: block; 
-  }
 
-footer {
-    padding: 20px; 
-    border-radius: 10px; 
-    text-align: center; 
-    color: #e8e8e8; 
-    background-image: url(./img-planetas/footer.jpg);
-    background-position: center;
-    background-size: cover;  
-  }
+
+/**************FOOTER*************************/
+
   
-  footer img {
-    width: 150px; 
-    margin-bottom: 10px; 
-  }
-  footer img:hover{
-    transform: scale(1.1);
-    transition: 1s;
-  }
+.container { 
+  display: flex;
+  align-items: flex-start; 
+  padding: 0 0 20px 0;  
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  border: solid 1px rgb(226, 201, 201);
+  margin: 0 auto; 
+  display: block; 
+}
+
+h1{
+  font-family: "Orelega One"; 
+  width: 300px;
+  background-color: rgba(0, 0, 51, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: aqua;
+  padding: 10px 20px; 
+  border: solid 1px black;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+
+/************MENU DE NAVEGAÇÃO**************/
+.nav-header { 
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 10px;
+  left: 160px;
+  width: 75vw; 
+  font-size: 1rem;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.nav-header a {
+text-decoration: none;
+color: #fff;
+background-color: rgba(9, 9, 104, 0.8); 
+text-align: center;
+padding: 8px 18px;
+margin-left: 12px;
+border-radius: 6px; 
+transition: all 0.3s ease; 
+text-shadow: 0 0 5px #007bff; 
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.item-curiosidade{width: 10vw;}
+.item-viagem{width: 10vw;}
+.item-home{width: 10vw;}
+
+/*******CONTAINER PRINCIPAL**********/
+.container { 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 20px; 
+}
+
+.left-column { 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.numbers {
+  width: 22vw;
+  height: auto;
+  border: solid 1px black;
+  background-color: rgba(0, 0, 51, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #f5f5f5;
+  padding: 20px; 
+  margin-top: 50px; 
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+strong{
+  color: aqua;
+  font-size: 0.8rem;
+}
+
+.image {
+  width:  500px;
+  height: 500px;
+  border: solid 1px rgb(226, 201, 201);
+  margin: 20px auto; 
+  display: block; 
+}
+
+.image img{
+  width: 100%;
+  height: 100%;
+}
+
+h3{
+  color: aqua;
+}
+.aside {
+  width: 25vw;
+  height: 80vh;
+  border: solid 1px black;
+  background-color: rgba(0, 0, 51, 0.8);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 20px; 
+  max-width: 300px; 
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/*******SETAS PARA DIREITA**********/
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-left: 50px solid rgb(248, 237, 237);
+  float: inline-end;
+  margin-right: 300px;
+}
+
+.arrow-small {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-left: 30px solid rgb(0, 0, 0);
+  float: inline-end;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+.arrow-left-small {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right: 30px solid rgb(14, 2, 2);
+  margin-left: 300px;
+  position: relative;
+  bottom: 30px;
+}
+
+/******SETAS PARA ESQUERDA************/
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-right: 50px solid rgb(248, 237, 237);
+  margin-left: 300px;
+}
+
+/**********FOOTER*************/
+footer { 
+  position: relative;
+ top: 50px;
+  padding: 20px; 
+  background-color: rgba(0, 0, 20, 0.1); 
+  border-radius: 10px; 
+  text-align: center; 
+  color: #e8e8e8; 
+  margin-top: 20px;
+  background-image: url(./img-planetas/footer.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+footer img {
+  width: 150px; 
+  margin-bottom: 10px; 
+}
+
+footer img:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+footer a { 
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline; 
+}
+
+.nav-footer {
   
-  footer p { 
-    font-size: 2rem;
-    position: relative; bottom: 20px;
-    color: #007bff;
-  }
-  
-  footer a { 
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline; 
-  }
-  
+  font-family: "Orelega one", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 200px;
+  border: none; 
+  font-size: 1rem;
+}
+
+.nav-footer a, .nav-footer-b a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 0, 51, 0.8); 
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 2px;
+  border-radius: 5px; 
+  transition: all 0.3s ease; 
+  text-shadow: 0 0 5px #007bff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /
+}
+
+.nav-footer a:hover {
+  transform: scale(1.1); 
+  background-color: #007bff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.nav-footer-b {
+  font-family: "Orelega one", sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 1100px;
+  width: 200px;
+  border: none; 
+  font-size: 1rem;
+}
+
+.nav-footer-b a:hover {
+  transform: scale(1.1); 
+  background-color: #007bff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
   

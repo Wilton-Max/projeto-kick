@@ -1,87 +1,20 @@
-*{ 
-  font-family: "Inter";
-  
-}
 
-h1{font-family: "Orelega One"; }
-
-/*******SETAS PARA DIREITA**********/
-.arrow-right {
-    width: 0; 
-    height: 0; 
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent; 
-    border-left: 50px solid rgb(248, 237, 237);
-    float: inline-end;
-    margin-right: 300px;
+.container { 
+    display: flex;
+    align-items: flex-start; 
+    padding: 0 0 20px 0;  
   }
   
-  .arrow-small {
-    width: 0; 
-    height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    border-left: 30px solid rgb(0, 0, 0);
-    float: inline-end;
-    position: relative;
-    left: 50px;
-    top: 10px;
-  }
-  .arrow-left-small {
-    width: 0; 
-    height: 0; 
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    border-right: 30px solid rgb(14, 2, 2);
-    margin-left: 300px;
-    position: relative;
-    bottom: 30px;
-    
-  }
-  
-  /******SETAS PARA ESQUERDA************/
-  
-  .arrow-left {
-    width: 0; 
-    height: 0; 
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent; 
-    border-right: 50px solid rgb(248, 237, 237);
-    margin-left: 300px;
+.image {
+    width: 500px;
+    height: 500px;
+    border: solid 1px rgb(226, 201, 201);
+    margin: 0 auto; 
+    display: block; 
   }
 
-  /*/*/
-  /************MENU DE NAVEGAÇÃO**************/
-.nav-header { 
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  top: 10px;
-  left: 160px;
-  width: 75vw; 
-  font-size: 1rem;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.nav-header a {
-text-decoration: none;
-color: #fff;
-background-color: rgba(9, 9, 104, 0.8); 
-text-align: center;
-padding: 8px 18px;
-margin-left: 12px;
-border-radius: 6px; 
-transition: all 0.3s ease; 
-text-shadow: 0 0 5px #007bff; 
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
-}
-
-.item-curiosidade{width: 10vw;}
-.item-viagem{width: 10vw;}
-.item-home{width: 10vw;}
-
-h1 {
+h1{
+    font-family: "Orelega One"; 
     width: 300px;
     background-color: rgba(0, 0, 51, 0.8);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -90,9 +23,40 @@ h1 {
     border: solid 1px black;
     letter-spacing: 1.5px;
     text-align: center;
+}
+
+/************MENU DE NAVEGAÇÃO**************/
+.nav-header { 
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+    left: 160px;
+    width: 75vw; 
+    font-size: 1rem;
+    justify-content: center;
+    margin-bottom: 50px;
   }
   
-  .container { 
+  .nav-header a {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(9, 9, 104, 0.8); 
+  text-align: center;
+  padding: 8px 18px;
+  margin-left: 12px;
+  border-radius: 6px; 
+  transition: all 0.3s ease; 
+  text-shadow: 0 0 5px #007bff; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  .item-curiosidade{width: 10vw;}
+  .item-viagem{width: 10vw;}
+  .item-home{width: 10vw;}
+
+/*******CONTAINER PRINCIPAL**********/
+.container { 
     display: flex;
     justify-content: space-between;
     align-items: flex-start; 
@@ -152,6 +116,51 @@ h1 {
     text-align: center;
   }
 
+/*******SETAS PARA DIREITA**********/
+.arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left: 50px solid rgb(248, 237, 237);
+    float: inline-end;
+    margin-right: 300px;
+  }
+  
+.arrow-small {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left: 30px solid rgb(0, 0, 0);
+    float: inline-end;
+    position: relative;
+    left: 50px;
+    top: 10px;
+  }
+.arrow-left-small {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right: 30px solid rgb(14, 2, 2);
+    margin-left: 300px;
+    position: relative;
+    bottom: 30px;
+  }
+  
+  /******SETAS PARA ESQUERDA************/
+  
+.arrow-left {
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right: 50px solid rgb(248, 237, 237);
+    margin-left: 300px;
+  }
+
+  /**********FOOTER*************/
   footer { 
     position: relative;
    top: 50px;
@@ -165,8 +174,27 @@ h1 {
     background-position: center;
     background-size: cover;
   }
+
+
+  footer img {
+    width: 150px; 
+    margin-bottom: 10px; 
+  }
+
+  footer img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+  }
+
+  footer a { 
+    color: #007bff;
+    text-decoration: none;
+  }
   
-  /*ITENS DE NAVEGAÇÃO DO FOOTER*/
+  footer a:hover {
+    text-decoration: underline; 
+  }
+
   .nav-footer {
     
     font-family: "Orelega one", sans-serif;
@@ -213,6 +241,4 @@ h1 {
     background-color: #007bff; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
   }
-  /******************************************/
-  
-  
+
