@@ -3,7 +3,7 @@
 body{
   background-image: url(luzes1.jpg);
   background-size: cover;
-  font-family: "Inter";
+  
 }
 
 /************MENU DE NAVEGAÇÃO**************/
@@ -77,7 +77,8 @@ h1 {
   padding: 20px; 
   margin-top: 50px; 
   font-size: 0.8rem;
-  line-height: 1.2rem;
+  line-height: 1rem;
+  font-family: "Inter";
 }
 
 strong{
@@ -104,6 +105,50 @@ h3{
   max-width: 300px; 
   font-size: 0.9rem;
   text-align: center; 
+}
+
+/*******SETAS PARA DIREITA**********/
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-left: 50px solid #007bff;;
+  float: inline-end;
+  margin-right: 300px;
+}
+
+.arrow-small {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-left: 30px solid rgba(0, 0, 51, 1);
+  float: inline-end;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+.arrow-left-small {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right: 30px solid rgba(0, 0, 51, 1);
+  margin-left: 300px;
+  position: relative;
+  bottom: 30px;
+}
+
+/******SETAS PARA ESQUERDA************/
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent; 
+  border-right: 50px solid #007bff;;
+  margin-left: 300px;
 }
 
 
