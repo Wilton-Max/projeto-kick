@@ -12,7 +12,7 @@ body{
   flex-direction: row;
   position: relative;
   top: 10px;
-  left: 160px;
+  left: 150px;
   width: 75vw; 
   font-size: 1rem;
   justify-content: center;
@@ -22,7 +22,7 @@ body{
 .nav-header a {
 text-decoration: none;
 color: #fff;
-background-color: rgba(9, 9, 104, 0.8); 
+background-color: rgba(9, 9, 104, 0.6); 
 text-align: center;
 padding: 8px 18px;
 margin-left: 12px;
@@ -32,9 +32,15 @@ text-shadow: 0 0 5px #007bff;
 box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
-.item-curiosidade{width: 13vw;}
-.item-viagem{width: 13vw;}
-.item-home{width: 13vw;}
+.nav-header a:hover {
+  transform: scale(1.1); 
+  background-color: #007bff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.item-curiosidade{width: 9vw;}
+.item-viagem{width: 8vw;}
+.item-home{width: 8vw;}
 
 h1 {
   width: 300px;
@@ -92,7 +98,6 @@ strong{
   font-size: 0.8rem;
 }
 
-
 h3{
   color: aqua;
 }
@@ -110,14 +115,19 @@ h3{
 }
 
 /*******SETAS PARA DIREITA**********/
+.setas-direita{
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+}
 .arrow-right {
   width: 0; 
   height: 0; 
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent; 
-  border-left: 50px solid rgb(248, 237, 237);
+  border-left: 50px solid rgba(238, 255, 252, 0.6);
   float: inline-end;
-  margin-right: 300px;
+  margin-right: 380px;
 }
 
 .arrow-small {
@@ -125,22 +135,25 @@ h3{
   height: 0; 
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; 
-  border-left: 30px solid rgb(0, 0, 0);
+  border-left: 30px solid rgba(0, 0, 51, 1);
   float: inline-end;
   position: relative;
   left: 50px;
-  top: 10px;
+  top: 10px;  
 }
 
-
 /******SETAS PARA ESQUERDA************/
-
+.setas-esquerda{
+  position: relative;
+  bottom: 40px;
+  left: 90px;
+}
 .arrow-left {
   width: 0; 
   height: 0; 
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent; 
-  border-right: 50px solid rgb(248, 237, 237);
+  border-right: 50px solid rgba(238, 255, 252, 0.6);
   margin-left: 300px;
 }
 
@@ -149,7 +162,7 @@ h3{
   height: 0; 
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent; 
-  border-right: 30px solid rgb(14, 2, 2);
+  border-right: 30px solid rgba(0, 0, 51, 1);
   margin-left: 300px;
   position: relative;
   bottom: 30px;
