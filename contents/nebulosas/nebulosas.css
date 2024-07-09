@@ -113,7 +113,7 @@ h3{
   height: 0; 
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent; 
-  border-left: 50px solid #007bff;;
+  border-left: 50px solid rgba(86, 154, 255, 0.788);
   float: inline-end;
   margin-right: 300px;
 }
