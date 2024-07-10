@@ -168,7 +168,6 @@ h3{
   bottom: 30px;
 }
 
-
 /*ITENS DE NAVEGAÇÃO DO FOOTER*/
 
 footer { 
@@ -264,4 +263,125 @@ footer a {
 
 footer a:hover {
   text-decoration: underline; 
+}
+
+/************* Mobile *************/
+@media (max-width: 768px) {
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4013be;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .item-home, .item-viagem, .item-curiosidade {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .left-column {
+    margin-bottom: 20px;
+  }
+
+  .left-column h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .numbers p {
+    margin-bottom: 5px;
+  }
+
+  .image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .image img {
+    width: 100%;
+  }
+
+  .aside {
+    margin-bottom: 20px;
+  }
+
+  .aside h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .aside p {
+    margin-bottom: 5px;
+  }
+
+  .setas-direita, .setas-esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .more-contente {
+    margin-bottom: 20px;
+  }
+
+  .more-contente h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .more-contente p {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    background-color: #1ccce4;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-footer, .nav-footer-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .item-galaxia, .item-constelacoes, .item-nebulosas,
+  .item-telescopio, .item-astronomos, .item-exoplanetas {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #106bf3;
+  }
+
+  footer img {
+    width: 150px;
+    margin: 10px 0;
+  }
 }

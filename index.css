@@ -106,6 +106,11 @@ a{
   text-shadow: 0 0 5px #007bff; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
+
+.nav-header a:hover{
+  transform: scale(1.1); 
+  transition: .4s;
+}
   
   .item-curiosidade{width: 13vw;}
   .item-viagem{width: 13vw;}
@@ -141,7 +146,7 @@ a{
   margin-bottom: 10px; 
   border-radius: 10px;
   box-shadow: 0 3px 3px #2fdae0;
-display: block; 
+  display: block; 
 }
 
 .card img{
@@ -215,7 +220,7 @@ a {
 #card6{background-image: url(./assets/img/exoplanetas/exo.png);background-position: center;background-size: cover;}
 
 footer {
-  padding: 20px; 
+  padding: 15px; 
   border-radius: 10px; 
   text-align: center; 
   color: #e8e8e8; 
@@ -234,7 +239,7 @@ footer img:hover{
 }
 
 footer p { 
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: relative; bottom: 20px;
   color: #007bff;
 }
