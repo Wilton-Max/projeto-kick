@@ -1,4 +1,5 @@
-*{
+@media (max-width: 1800px){
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -221,7 +222,6 @@ footer {
   background-image: url(./assets/img/background/footer.jpg);
   background-position: center;
   background-size: cover;
-  
 }
 
 footer img {
@@ -247,3 +247,89 @@ footer a {
 footer a:hover {
   text-decoration: underline; 
 }
+}
+
+/*****************************************/
+@media (max-width: 600px) {
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  nav {
+    display: flex;
+    padding: 10px 0;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-content {
+    text-align: justify;
+  }
+
+  .card-image {
+    display: none; 
+  }
+
+  .planet-header {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+
+  .planet-button:hover {
+    background-color: #45a049;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+
